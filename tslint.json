@@ -1,0 +1,18 @@
+{
+  "rules": {
+    "ordered-imports": [false, {
+      "import-sources-order": "any",
+      "named-imports-order": "case-insensitive"
+    }],
+    "import-name": [false],
+    "prefer-array-literal": [false],
+    "indent": [false, "tab"]
+  },
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js"
+    ]
+  }
+}
